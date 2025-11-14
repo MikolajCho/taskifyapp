@@ -70,7 +70,7 @@ export default function App() {
 			const result = await trpc.tasks.list.query();
 			setTasks(result);
 		} catch (_error: unknown) {
-			showMessage("Błąd ładowania zadań", "error");
+			showMessage("Brak zadań do wyświetlenia", "error");
 		}
 	}, [showMessage]);
 
