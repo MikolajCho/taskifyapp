@@ -1,0 +1,12 @@
+{
+  "name": "taskify-monorepo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo 'Użyj osobnych skryptów: pnpm run dev --filter backend, pnpm run dev --filter frontend'",
+    "clean": "pnpm recursive exec rm -rf node_modules"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
