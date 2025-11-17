@@ -371,7 +371,7 @@ export default function App() {
 						transition={{ duration: 0.4 }}
 						className="card"
 					>
-						<h1 className="title">🔐 Zaloguj się</h1>
+						<h1 className="title">Zaloguj się</h1>
 
 						{error && (
 							<motion.div
@@ -436,7 +436,7 @@ export default function App() {
 						transition={{ duration: 0.4 }}
 						className="card"
 					>
-						<h1 className="title">📝 Rejestracja</h1>
+						<h1 className="title">Rejestracja</h1>
 
 						{error && (
 							<motion.div
@@ -711,7 +711,7 @@ export default function App() {
 							className="logout-button"
 							disabled={globalLoading}
 						>
-							{globalLoading ? "Wylogowywanie..." : "🚪 Wyloguj"}
+							{globalLoading ? "Wylogowywanie..." : "Wyloguj"}
 						</button>
 					</motion.div>
 				)}

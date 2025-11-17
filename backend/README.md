@@ -7,6 +7,9 @@ This is the backend for an application built with **Node.js**, using **tRPC**, *
 **Prerequisite:** Clone the repository and copy `.env.example` to `.env`, then fill in database connection details. Make sure the .env file is placed inside the backend folder.
 
 ```bash
+# Go to the backend directory
+cd backend
+
 # Install dependencies
 pnpm install
 
