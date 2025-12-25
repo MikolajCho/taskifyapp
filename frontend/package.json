@@ -15,8 +15,8 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@trpc/client": "^11.8.0",
-		"@trpc/server": "^11.8.0",
+		"@trpc/client": "^11.8.1",
+		"@trpc/server": "^11.8.1",
 		"framer-motion": "^12.23.24",
 		"react": "^19.2.3",
 		"react-dom": "^19.2.3"
