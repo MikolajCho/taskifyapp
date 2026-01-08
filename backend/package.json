@@ -18,7 +18,7 @@
 		"check:fix": "biome check --fix ."
 	},
 	"dependencies": {
-		"@libsql/client": "^0.15.15",
+		"@libsql/client": "^0.17.0",
 		"@paralleldrive/cuid2": "^3.1.0",
 		"@trpc/client": "11.8.1",
 		"@trpc/server": "11.8.1",
