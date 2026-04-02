@@ -20,8 +20,8 @@
 	"dependencies": {
 		"@libsql/client": "^0.17.0",
 		"@paralleldrive/cuid2": "^3.1.0",
-		"@trpc/client": "11.10.0",
-		"@trpc/server": "11.10.0",
+		"@trpc/client": "11.15.0",
+		"@trpc/server": "11.15.0",
 		"bcryptjs": "^3.0.3",
 		"cookie": "^1.0.2",
 		"cookie-parser": "^1.4.7",
@@ -48,6 +48,6 @@
 		"dotenv-cli": "^11.0.0",
 		"drizzle-kit": "^0.31.8",
 		"tsx": "^4.6.2",
-		"typescript": "^5.3.3"
+		"typescript": "^6.0.2"
 	}
 }
